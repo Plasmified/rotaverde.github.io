@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(30, 43, 36);
+}
+
+#map {
+    height: 895px;
+    border: 5px solid rgba(35, 80, 35, 0.667);
+    border-radius: 15px;
+}
+
+.leaflet-popup-tip {
+    background: rgb(100, 100, 100);
+    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
+
+.leaflet-bar a {
+    background-color: rgba(35, 80, 35, 0.667);
+    color: white;
+    border-radius: 4px;
+    padding: 12px 12px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.leaflet-bar a:hover {
+    background-color: rgba(35, 80, 35, 0.667);
+}
+
+.leaflet-control-custom {
+    background-color: rgba(35, 80, 35, 0.667);
+    color: white;
+    border-radius: 4px;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.leaflet-control-custom:hover {
+    background-color: rgba(22, 51, 22, 0.667);
+}
+
+.leaflet-control-custom-container {
+    background-color: none;
+    color: white;
+    border-radius: 4px;
+    padding: 1px 1px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.leaflet-control-custom-container .distance-form.hidden {
+    display: none;
+}
+
+.leaflet-control-custom-container .distance-form {
+    margin-top: 10px;
+    background: rgba(22, 51, 22, 0.667);
+    padding: 32px;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.leaflet-control-custom-container.show-form {
+    border: 2px solid #4CAF50;
+}
+
+.leaflet-bar {
+    display: block;
+}
+
+.layers-button {
+    background-color: rgba(35, 80, 35, 0.667);
+    position: absolute;
+    top: 50px;
+    right: 37px;
+    padding: 8px 16px;
+    border: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
