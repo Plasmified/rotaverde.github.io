@@ -1,5 +1,5 @@
 /*                                                                            Trajetos                                                                            */
-$.getJSON('../Data/geojson/bikeways/CicloviaCascais.geojson', function(data) {  
+$.getJSON('../Data/rotaverde.github.io/geojson/bikeways/CicloviaCascais.geojson', function(data) {  
     for (feature of data.features) {
         var coordinates = [];
         for ([lng, lat] of feature.geometry.coordinates[0]) {
@@ -17,7 +17,7 @@ $.getJSON('../Data/geojson/bikeways/CicloviaCascais.geojson', function(data) {
     }
 });
 
-$.getJSON('../Data/geojson/bikeways/Ciclovias.geojson', function(data) {  
+$.getJSON('../Data/rotaverde.github.io/geojson/bikeways/Ciclovias.geojson', function(data) {  
     for (feature of data.features) {
         var coordinates = [];
         if(feature.geometry != null) {
@@ -37,7 +37,7 @@ $.getJSON('../Data/geojson/bikeways/Ciclovias.geojson', function(data) {
     }
 });
 
-$.getJSON('../Data/geojson/trainways/RedeComboios.geojson', function(data) {  
+$.getJSON('../Data/rotaverde.github.io/geojson/trainways/RedeComboios.geojson', function(data) {  
     for (feature of data.features) {
         var coordinates = [];
         for ([lng, lat] of feature.geometry.coordinates) {
@@ -55,7 +55,7 @@ $.getJSON('../Data/geojson/trainways/RedeComboios.geojson', function(data) {
     }
 });
 
-$.getJSON('../Data/geojson/metrolines/EstacoesMetro.geojson', function(data) {  
+$.getJSON('../Data/rotaverde.github.io/geojson/metrolines/EstacoesMetro.geojson', function(data) {  
     for (feature of data.features) {
         var coordinates = [];
         for ([lng, lat] of feature.geometry.coordinates) {
@@ -75,7 +75,7 @@ $.getJSON('../Data/geojson/metrolines/EstacoesMetro.geojson', function(data) {
 
 /*                                                                            MapPoints                                                                           */
 
-$.getJSON('../Data/geojson/trainstations/EstacoesComboio.geojson', function(data) {  
+$.getJSON('../Data/rotaverde.github.io/geojson/trainstations/EstacoesComboio.geojson', function(data) {  
     for (feature of data.features) {
         [lng, lat] = feature.geometry.coordinates;
         
@@ -83,7 +83,7 @@ $.getJSON('../Data/geojson/trainstations/EstacoesComboio.geojson', function(data
     }
 });
 
-$.getJSON('../Data/geojson/Aeroportos.geojson', function(data) {
+$.getJSON('../Data/rotaverde.github.io/geojson/Aeroportos.geojson', function(data) {
         for (feature of data.features) {
             var coords = feature.geometry.coordinates[0];
             
@@ -105,7 +105,7 @@ $.getJSON('../Data/geojson/Aeroportos.geojson', function(data) {
         }
     });
 
-$.getJSON('../Data/geojson/Carris.json', function(data) {  
+$.getJSON('../Data/rotaverde.github.io/geojson/Carris.json', function(data) {  
     for (let stop of data) {
         if (stop.operational_status == "ACTIVE") {
             addMarkerWithTimedPopupBus(stop);
