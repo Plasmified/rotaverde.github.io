@@ -1,0 +1,333 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1,
+                "cod_icao": "LPPT",
+                "cod_iata": "LIS",
+                "regiao": "Lisboa",
+                "local": "Lisboa",
+                "nome_curto": "Lisboa",
+                "nome_longo": "Aeroporto Humberto Delgado (Aeroporto da Portela de Sacavém)",
+                "lat": -9.1359195709200005,
+                "lng": 38.781299591100002
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -9.13591957092,
+                        38.7812995911
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2,
+                "cod_icao": "LPFR",
+                "cod_iata": "FAO",
+                "regiao": "Algarve",
+                "local": "Faro",
+                "nome_curto": "Faro",
+                "nome_longo": "Aeroporto de Faro (Aeroporto Internacional de Faro)",
+                "lat": -7.9659099578900001,
+                "lng": 37.014400482200003
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -7.96590995789,
+                        37.0144004822
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3,
+                "cod_icao": "LPPR",
+                "cod_iata": "OPO",
+                "regiao": "Norte",
+                "local": "Porto",
+                "nome_curto": "Porto",
+                "nome_longo": "Aeroporto Francisco Sá Carneiro (Aeroporto Internacional Francisco Sá Carneiro)",
+                "lat": -8.6813898086499997,
+                "lng": 41.248100280800003
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -8.68138980865,
+                        41.2481002808
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 4,
+                "cod_icao": "LPMA",
+                "cod_iata": "FNC",
+                "regiao": "Madeira",
+                "local": "Ilha da Madeira (Funchal)",
+                "nome_curto": "Madeira",
+                "nome_longo": "Aeroporto Cristiano Ronaldo (Funchal) {Santa Catarina\/Santa Cruz,Madeira} [1]",
+                "lat": -16.774499893188,
+                "lng": 32.697898864746001
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -16.774499893188,
+                        32.697898864746
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 5,
+                "cod_icao": "LPPS",
+                "cod_iata": "PXO",
+                "regiao": "Madeira",
+                "local": "Ilha do Porto Santo",
+                "nome_curto": "Porto Santo",
+                "nome_longo": "Aeroporto do Porto Santo (Vila Baleira)",
+                "lat": -16.350000381499999,
+                "lng": 33.073398590099998
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -16.3500003815,
+                        33.0733985901
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 6,
+                "cod_icao": "LPPD",
+                "cod_iata": "PDL",
+                "regiao": "Açores",
+                "local": "Ilha de São Miguel (Ponta Delgada)",
+                "nome_curto": "João Paulo II",
+                "nome_longo": "Aeroporto João Paulo II",
+                "lat": -25.697900772099999,
+                "lng": 37.741199493400003
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -25.6979007721,
+                        37.7411994934
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 7,
+                "cod_icao": "LPHR",
+                "cod_iata": "HOR",
+                "regiao": "Açores",
+                "local": "Ilha do Faial (Horta)",
+                "nome_curto": "Horta",
+                "nome_longo": "Aeroporto da Horta",
+                "lat": -28.715900421142599,
+                "lng": 38.519901275634801
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -28.7159004211426,
+                        38.5199012756348
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 8,
+                "cod_icao": "LPAZ",
+                "cod_iata": "SMA",
+                "regiao": "Açores",
+                "local": "Ilha de Santa Maria",
+                "nome_curto": "Santa Maria",
+                "nome_longo": "Aeroporto de Santa Maria",
+                "lat": -25.170600891113299,
+                "lng": 36.971401214599602
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -25.1706008911133,
+                        36.9714012145996
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9,
+                "cod_icao": "LPFL",
+                "cod_iata": "FLW",
+                "regiao": "Açores",
+                "local": "Ilha das Flores (Açores)",
+                "nome_curto": "Flores",
+                "nome_longo": "Aeroporto das Flores",
+                "lat": -31.1313991546631,
+                "lng": 39.455299377441399
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -31.1313991546631,
+                        39.4552993774414
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 10,
+                "cod_icao": "LPGR",
+                "cod_iata": "GRW",
+                "regiao": "Açores",
+                "local": "Ilha Graciosa",
+                "nome_curto": "Graciosa",
+                "nome_longo": "Aeródromo da Graciosa",
+                "lat": -28.029800415039102,
+                "lng": 39.092201232910199
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -28.0298004150391,
+                        39.0922012329102
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11,
+                "cod_icao": "LPSJ",
+                "cod_iata": "SJZ",
+                "regiao": "Açores",
+                "local": "Ilha de São Jorge",
+                "nome_curto": "São Jorge",
+                "nome_longo": "Aeródromo de São Jorge",
+                "lat": -28.1758003234863,
+                "lng": 38.665500640869098
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -28.1758003234863,
+                        38.6655006408691
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 12,
+                "cod_icao": "LPCR",
+                "cod_iata": "CVU",
+                "regiao": "Açores",
+                "local": "Ilha do Corvo",
+                "nome_curto": "Corvo",
+                "nome_longo": "Aeródromo do Corvo",
+                "lat": -31.113599777221701,
+                "lng": 39.671501159667997
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -31.1135997772217,
+                        39.671501159668
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 13,
+                "cod_icao": "LPPI",
+                "cod_iata": "PIX",
+                "regiao": "Açores",
+                "local": "Ilha do Pico",
+                "nome_curto": "Pico",
+                "nome_longo": "Aeroporto do Pico",
+                "lat": -28.441299438476602,
+                "lng": 38.554298400878899
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -28.4412994384766,
+                        38.5542984008789
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 14,
+                "cod_icao": "LPLA",
+                "cod_iata": "TER",
+                "regiao": "Açores",
+                "local": "Ilha Terceira",
+                "nome_curto": "Lajes",
+                "nome_longo": "Base Aérea das Lajes",
+                "lat": -27.090799331700001,
+                "lng": 38.761798858600002
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -27.0907993317,
+                        38.7617988586
+                    ]
+                ]
+            }
+        }
+    ]
+}

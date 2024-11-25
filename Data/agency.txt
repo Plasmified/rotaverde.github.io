@@ -1,0 +1,2 @@
+agency_email,agency_fare_url,agency_id,agency_lang,agency_name,agency_phone,agency_timezone,agency_url
+contacto@carrismetropolitana.pt,https://www.carrismetropolitana.pt/tarifarios/,CM,pt,Carris Metropolitana,210410400,Europe/Lisbon,https://www.carrismetropolitana.pt

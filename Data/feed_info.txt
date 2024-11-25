@@ -1,0 +1,2 @@
+default_lang,feed_contact_url,feed_end_date,feed_lang,feed_publisher_name,feed_publisher_url,feed_start_date,feed_version
+en,https://api.carrismetropolitana.pt/gtfs,20250630,pt,Carris Metropolitana,https://carrismetropolitana.pt,20240101,202411111110

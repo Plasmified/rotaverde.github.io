@@ -1,0 +1,1005 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14620795021712,
+                    38.7061150810876
+                ]
+            },
+            "properties": {
+                "OBJECTID": 1,
+                "COD_SIG": "35",
+                "IDTIPO": "9008",
+                "NOME": "Cais do Sodré",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Verde",
+                "GlobalID": "5755ed38-fbb3-4302-86d7-dbbe7aa85374"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13420238756193,
+                    38.7071293396142
+                ]
+            },
+            "properties": {
+                "OBJECTID": 2,
+                "COD_SIG": "34",
+                "IDTIPO": "9008",
+                "NOME": "Terreiro do Paço",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "81a30260-ad00-4753-a220-66a22bf8fbb8"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14015060636417,
+                    38.7105700699041
+                ]
+            },
+            "properties": {
+                "OBJECTID": 3,
+                "COD_SIG": "33",
+                "IDTIPO": "9008",
+                "NOME": "Baixa Chiado",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul/Verde",
+                "GlobalID": "bb7176f2-bb23-41d7-a3da-18c47f6cebec"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.1223340184811,
+                    38.7139242126512
+                ]
+            },
+            "properties": {
+                "OBJECTID": 4,
+                "COD_SIG": "37",
+                "IDTIPO": "9008",
+                "NOME": "Santa Apolónia",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "ebc54f51-0b77-4b54-94c0-adfe4efde182"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13788558416029,
+                    38.7140387351334
+                ]
+            },
+            "properties": {
+                "OBJECTID": 5,
+                "COD_SIG": "43",
+                "IDTIPO": "9008",
+                "NOME": "Rossio",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Verde",
+                "GlobalID": "6ccf250a-385a-4eaa-be5f-b25ef4c8c088"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14211755877668,
+                    38.7159224068044
+                ]
+            },
+            "properties": {
+                "OBJECTID": 6,
+                "COD_SIG": "42",
+                "IDTIPO": "9008",
+                "NOME": "Restauradores",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "f9b25433-5ec0-4edb-9df9-0c2df9671960"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13573782228017,
+                    38.7177019399986
+                ]
+            },
+            "properties": {
+                "OBJECTID": 7,
+                "COD_SIG": "36",
+                "IDTIPO": "9008",
+                "NOME": "Martim Moniz",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Verde",
+                "GlobalID": "0d928c70-1040-413f-ba93-b68776f2e428"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14515188409429,
+                    38.7194025351094
+                ]
+            },
+            "properties": {
+                "OBJECTID": 8,
+                "COD_SIG": "32",
+                "IDTIPO": "9008",
+                "NOME": "Avenida",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "71871d6e-b787-437d-a3b7-069c398f83b3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.15468780091093,
+                    38.7201575166883
+                ]
+            },
+            "properties": {
+                "OBJECTID": 9,
+                "COD_SIG": "45",
+                "IDTIPO": "9008",
+                "NOME": "Rato",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Amarela",
+                "GlobalID": "376c4cf7-a775-408f-af04-0e3335a44930"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13518490808126,
+                    38.7232980404134
+                ]
+            },
+            "properties": {
+                "OBJECTID": 10,
+                "COD_SIG": "31",
+                "IDTIPO": "9008",
+                "NOME": "Intendente",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Verde",
+                "GlobalID": "bf1d9527-2dcb-44d4-878a-3c6015cb6265"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14974636758321,
+                    38.724638955043
+                ]
+            },
+            "properties": {
+                "OBJECTID": 11,
+                "COD_SIG": "23",
+                "IDTIPO": "9008",
+                "NOME": "Marquês de Pombal",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul/Amarela",
+                "GlobalID": "76e9658e-0c4f-4b88-a31a-d39d02ff848c"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13480023096576,
+                    38.7271578246524
+                ]
+            },
+            "properties": {
+                "OBJECTID": 12,
+                "COD_SIG": "30",
+                "IDTIPO": "9008",
+                "NOME": "Anjos",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Verde",
+                "GlobalID": "67338be7-b9e8-4a11-a6bc-c45d072200d0"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.15014123306272,
+                    38.7289458895159
+                ]
+            },
+            "properties": {
+                "OBJECTID": 13,
+                "COD_SIG": "22",
+                "IDTIPO": "9008",
+                "NOME": "Parque",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "90ea1abc-1c05-4e5b-951a-c941c30a6c51"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14688282452403,
+                    38.7304084282427
+                ]
+            },
+            "properties": {
+                "OBJECTID": 14,
+                "COD_SIG": "21",
+                "IDTIPO": "9008",
+                "NOME": "Picoas",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Amarela",
+                "GlobalID": "d76654cd-ec7b-494e-b290-57df3603cbf3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13423033340514,
+                    38.7328456373345
+                ]
+            },
+            "properties": {
+                "OBJECTID": 15,
+                "COD_SIG": "29",
+                "IDTIPO": "9008",
+                "NOME": "Arroios",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Verde",
+                "GlobalID": "7f7c9a71-5a1d-47a4-8b13-9ba0e753de78"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.15392287316945,
+                    38.7343970331662
+                ]
+            },
+            "properties": {
+                "OBJECTID": 16,
+                "COD_SIG": "19",
+                "IDTIPO": "9008",
+                "NOME": "São Sebastião",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul/Vermelha",
+                "GlobalID": "ada980fa-01bc-439b-83c0-13edd27e2a62"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14528831383823,
+                    38.7351689051228
+                ]
+            },
+            "properties": {
+                "OBJECTID": 17,
+                "COD_SIG": "20",
+                "IDTIPO": "9008",
+                "NOME": "Saldanha",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Amarela/Vermelha",
+                "GlobalID": "b69f2f8c-3967-4eb8-b5c2-c9d51f9f7482"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13380942489798,
+                    38.7370549729502
+                ]
+            },
+            "properties": {
+                "OBJECTID": 18,
+                "COD_SIG": "18",
+                "IDTIPO": "9008",
+                "NOME": "Alameda",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Verde/Vermelha",
+                "GlobalID": "63d5bf60-b8ea-4b44-8e68-2fd4df02247e"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.15925422094947,
+                    38.7377491106506
+                ]
+            },
+            "properties": {
+                "OBJECTID": 19,
+                "COD_SIG": "24",
+                "IDTIPO": "9008",
+                "NOME": "Praça de Espanha",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "f5124e32-7f72-4c60-8b6f-29cd80a74f17"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.1230025209179,
+                    38.7401729590514
+                ]
+            },
+            "properties": {
+                "OBJECTID": 20,
+                "COD_SIG": "12",
+                "IDTIPO": "9008",
+                "NOME": "Olaias",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Vermelha",
+                "GlobalID": "dc139a41-8421-4a76-a006-7ef284d15e5b"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14668409480334,
+                    38.740929476453
+                ]
+            },
+            "properties": {
+                "OBJECTID": 21,
+                "COD_SIG": "17",
+                "IDTIPO": "9008",
+                "NOME": "Campo Pequeno",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Amarela",
+                "GlobalID": "216edadc-4540-4572-812e-7bb8edb45756"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.16866629861376,
+                    38.741639206018
+                ]
+            },
+            "properties": {
+                "OBJECTID": 22,
+                "COD_SIG": "25",
+                "IDTIPO": "9008",
+                "NOME": "Jardim Zoológico",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "fd7ea8cf-8d88-4c2a-a285-b71df8ec73b1"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13345548142175,
+                    38.7424454415358
+                ]
+            },
+            "properties": {
+                "OBJECTID": 23,
+                "COD_SIG": "13",
+                "IDTIPO": "9008",
+                "NOME": "Areeiro",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Verde",
+                "GlobalID": "996448bb-a684-4d0f-a1e4-46ffa8516edb"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.1482146104718,
+                    38.7471334577605
+                ]
+            },
+            "properties": {
+                "OBJECTID": 24,
+                "COD_SIG": "16",
+                "IDTIPO": "9008",
+                "NOME": "Entre Campos",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Amarela",
+                "GlobalID": "cc8bafa8-3670-4c77-a52c-d2a31c106816"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.11762369396806,
+                    38.7477357859286
+                ]
+            },
+            "properties": {
+                "OBJECTID": 25,
+                "COD_SIG": "11",
+                "IDTIPO": "9008",
+                "NOME": "Bela Vista",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Vermelha",
+                "GlobalID": "0539ab45-593b-4c70-b939-b8045588c840"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 26,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14134526152344,
+                    38.7482228024879
+                ]
+            },
+            "properties": {
+                "OBJECTID": 26,
+                "COD_SIG": "14",
+                "IDTIPO": "9008",
+                "NOME": "Roma",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Verde",
+                "GlobalID": "2c3f7254-c7c9-4176-a9d8-596a8b09b0a9"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 27,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.17258176533351,
+                    38.7487507528713
+                ]
+            },
+            "properties": {
+                "OBJECTID": 27,
+                "COD_SIG": "26",
+                "IDTIPO": "9008",
+                "NOME": "Laranjeiras",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "32c7ca7a-00c5-451c-a427-72674a26cf65"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 28,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.18006654807824,
+                    38.7499445388444
+                ]
+            },
+            "properties": {
+                "OBJECTID": 28,
+                "COD_SIG": "28",
+                "IDTIPO": "9008",
+                "NOME": "Alto dos Moinhos",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "31966370-a22e-4841-9e72-7c3b602b39c6"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 29,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.15912398203189,
+                    38.7515984207662
+                ]
+            },
+            "properties": {
+                "OBJECTID": 29,
+                "COD_SIG": "27",
+                "IDTIPO": "9008",
+                "NOME": "Cidade Universitária",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Amarela",
+                "GlobalID": "3faf4611-417d-4dda-a2f6-6ebd305fef1f"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 30,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.22388329579027,
+                    38.7522712870587
+                ]
+            },
+            "properties": {
+                "OBJECTID": 30,
+                "COD_SIG": "48",
+                "IDTIPO": "9008",
+                "NOME": "Reboleira",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "38d37020-608f-4691-abb7-12b12256aa57"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 31,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14400029637591,
+                    38.7531730686722
+                ]
+            },
+            "properties": {
+                "OBJECTID": 31,
+                "COD_SIG": "15",
+                "IDTIPO": "9008",
+                "NOME": "Alvalade",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Verde",
+                "GlobalID": "80b43007-18ae-402a-bc36-29afd2b89ea6"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 32,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.18930499007435,
+                    38.753441421465
+                ]
+            },
+            "properties": {
+                "OBJECTID": 32,
+                "COD_SIG": "39",
+                "IDTIPO": "9008",
+                "NOME": "Colégio Militar",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "3b03ab96-acba-4d6f-932f-924e1987105e"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 33,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.11393068105765,
+                    38.7549149532346
+                ]
+            },
+            "properties": {
+                "OBJECTID": 33,
+                "COD_SIG": "10",
+                "IDTIPO": "9008",
+                "NOME": "Chelas",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Vermelha",
+                "GlobalID": "d96e728d-bdee-4bbe-9f9e-bee54c7267d8"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 34,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.21790161747948,
+                    38.7587158590108
+                ]
+            },
+            "properties": {
+                "OBJECTID": 34,
+                "COD_SIG": "41",
+                "IDTIPO": "9008",
+                "NOME": "Amadora Este",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "319a15e3-3905-4e90-b195-d6d51b84803f"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 35,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.19262713345253,
+                    38.759168109099
+                ]
+            },
+            "properties": {
+                "OBJECTID": 35,
+                "COD_SIG": "44",
+                "IDTIPO": "9008",
+                "NOME": "Carnide",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "62ea4ebf-7d8f-4a66-b5f8-b5b306416f73"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 36,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.1578896614592,
+                    38.7602165259205
+                ]
+            },
+            "properties": {
+                "OBJECTID": 36,
+                "COD_SIG": "3",
+                "IDTIPO": "9008",
+                "NOME": "Campo Grande",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Amarela/Verde",
+                "GlobalID": "9ee57970-1417-4ae2-8c98-95d2413ca627"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.16644430726784,
+                    38.7599634337851
+                ]
+            },
+            "properties": {
+                "OBJECTID": 37,
+                "COD_SIG": "4",
+                "IDTIPO": "9008",
+                "NOME": "Telheiras",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Verde",
+                "GlobalID": "2aae2ecb-5406-481e-83db-9be919a20fe7"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 38,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.11176892689733,
+                    38.7609221401764
+                ]
+            },
+            "properties": {
+                "OBJECTID": 38,
+                "COD_SIG": "9",
+                "IDTIPO": "9008",
+                "NOME": "Olivais",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Vermelha",
+                "GlobalID": "163cc423-fe29-46e6-bf28-51d7138980ac"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 39,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.20447747862651,
+                    38.7605071106029
+                ]
+            },
+            "properties": {
+                "OBJECTID": 39,
+                "COD_SIG": "40",
+                "IDTIPO": "9008",
+                "NOME": "Alfornelos",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "48587adc-1e2b-42e9-9867-dc2dbbbbd135"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 40,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.19686363917219,
+                    38.7622502213567
+                ]
+            },
+            "properties": {
+                "OBJECTID": 40,
+                "COD_SIG": "38",
+                "IDTIPO": "9008",
+                "NOME": "Pontinha",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Azul",
+                "GlobalID": "1b0eb3ce-6925-4e90-9acd-4c004302e9d3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 41,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.10511478609739,
+                    38.7629641453917
+                ]
+            },
+            "properties": {
+                "OBJECTID": 41,
+                "COD_SIG": "8",
+                "IDTIPO": "9008",
+                "NOME": "Cabo Ruivo",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Vermelha",
+                "GlobalID": "9cb3ecba-99f4-4b20-a97f-197911258143"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 42,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.15555480778863,
+                    38.7674892706787
+                ]
+            },
+            "properties": {
+                "OBJECTID": 42,
+                "COD_SIG": "2",
+                "IDTIPO": "9008",
+                "NOME": "Quinta das Conchas",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Amarela",
+                "GlobalID": "f23b8866-86a8-4645-b4ba-a0df8d99487f"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 43,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.0998135518355,
+                    38.7679599444634
+                ]
+            },
+            "properties": {
+                "OBJECTID": 43,
+                "COD_SIG": "7",
+                "IDTIPO": "9008",
+                "NOME": "Oriente",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Vermelha",
+                "GlobalID": "9570ac33-83a2-4ad1-b7c1-beac1110fb39"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 44,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.12820311123166,
+                    38.7683794008583
+                ]
+            },
+            "properties": {
+                "OBJECTID": 44,
+                "COD_SIG": "49",
+                "IDTIPO": "9008",
+                "NOME": "Aeroporto",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Vermelha",
+                "GlobalID": "dfcb0bc1-e55a-4694-8732-801462b121fa"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 45,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.159288760681,
+                    38.7732843374556
+                ]
+            },
+            "properties": {
+                "OBJECTID": 45,
+                "COD_SIG": "46",
+                "IDTIPO": "9008",
+                "NOME": "Lumiar",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Amarela",
+                "GlobalID": "ba683c73-e3bd-4a54-902d-d4602438b2f1"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 46,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.11537495212044,
+                    38.7750679264104
+                ]
+            },
+            "properties": {
+                "OBJECTID": 46,
+                "COD_SIG": "50",
+                "IDTIPO": "9008",
+                "NOME": "Encarnação",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Vermelha",
+                "GlobalID": "fbd76b14-0590-441d-b327-f72cc1fe9184"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 47,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.10300158883893,
+                    38.7749214790169
+                ]
+            },
+            "properties": {
+                "OBJECTID": 47,
+                "COD_SIG": "47",
+                "IDTIPO": "9008",
+                "NOME": "Moscavide",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Vermelha",
+                "GlobalID": "002c091f-5438-4fbb-8bf0-c37c68c47e40"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 48,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.15952318236053,
+                    38.7795364143671
+                ]
+            },
+            "properties": {
+                "OBJECTID": 48,
+                "COD_SIG": "1",
+                "IDTIPO": "9008",
+                "NOME": "Ameixoeira",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Amarela",
+                "GlobalID": "dfdbac22-c12d-47a4-9364-94f75dcbc390"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 49,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.17189570290375,
+                    38.785776294755
+                ]
+            },
+            "properties": {
+                "OBJECTID": 49,
+                "COD_SIG": "6",
+                "IDTIPO": "9008",
+                "NOME": "Senhor Roubado",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Amarela",
+                "GlobalID": "bb007d8e-2d5c-42a6-8905-1fb2c8f29510"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 50,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.17319799147843,
+                    38.7935139056005
+                ]
+            },
+            "properties": {
+                "OBJECTID": 50,
+                "COD_SIG": "5",
+                "IDTIPO": "9008",
+                "NOME": "Odivelas",
+                "SITUACAO": "Linha existente",
+                "LINHA": "Amarela",
+                "GlobalID": "374d1e67-3448-4bed-b89b-3a40d1d824b5"
+            }
+        }
+    ]
+}
