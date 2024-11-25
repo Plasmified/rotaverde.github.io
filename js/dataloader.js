@@ -1,5 +1,5 @@
 /*                                                                            Trajetos                                                                            */
-$.getJSON('../Data/geojson/bikeways/CicloviaCascais.geojson', function(data) {  
+$.getJSON('../rotaverde.github.io/Data/geojson/bikeways/CicloviaCascais.geojson', function(data) {  
     for (feature of data.features) {
         var coordinates = [];
         for ([lng, lat] of feature.geometry.coordinates[0]) {
@@ -17,7 +17,7 @@ $.getJSON('../Data/geojson/bikeways/CicloviaCascais.geojson', function(data) {
     }
 });
 
-$.getJSON('../Data/geojson/bikeways/Ciclovias.geojson', function(data) {  
+$.getJSON('../rotaverde.github.io/Data/geojson/bikeways/Ciclovias.geojson', function(data) {  
     for (feature of data.features) {
         var coordinates = [];
         if(feature.geometry != null) {
@@ -37,7 +37,7 @@ $.getJSON('../Data/geojson/bikeways/Ciclovias.geojson', function(data) {
     }
 });
 
-$.getJSON('../Data/geojson/bikeways/CicloviasPorto.geojson', function(data) {  
+$.getJSON('../rotaverde.github.io/Data/geojson/bikeways/CicloviasPorto.geojson', function(data) {  
     for (feature of data.features) {
         if (!feature.geometry || feature.geometry.type !== "LineString") {
             continue;
@@ -59,7 +59,7 @@ $.getJSON('../Data/geojson/bikeways/CicloviasPorto.geojson', function(data) {
     }
 });
 
-$.getJSON('../Data/geojson/bikeways/CicloviasPortugal.geojson', function(data) {  
+$.getJSON('../rotaverde.github.io/Data/geojson/bikeways/CicloviasPortugal.geojson', function(data) {  
     for (feature of data.features) {
         if (!feature.geometry || feature.geometry.type !== "LineString") {
             continue;
@@ -81,7 +81,7 @@ $.getJSON('../Data/geojson/bikeways/CicloviasPortugal.geojson', function(data) {
     }
 });
 
-$.getJSON('../Data/geojson/trainways/RedeComboios.geojson', function(data) {  
+$.getJSON('../rotaverde.github.io/Data/geojson/trainways/RedeComboios.geojson', function(data) {  
     for (feature of data.features) {
         var coordinates = [];
         for ([lng, lat] of feature.geometry.coordinates) {
@@ -99,7 +99,7 @@ $.getJSON('../Data/geojson/trainways/RedeComboios.geojson', function(data) {
     }
 });
 
-$.getJSON('../Data/geojson/metrolines/LinesMetro.geojson', function(data) {  
+$.getJSON('../rotaverde.github.io/Data/geojson/metrolines/LinesMetro.geojson', function(data) {  
     for (feature of data.features) {
         var coordinates = [];
         for ([lng, lat] of feature.geometry.coordinates) {
@@ -119,7 +119,7 @@ $.getJSON('../Data/geojson/metrolines/LinesMetro.geojson', function(data) {
 
 /*                                                                            MapPoints                                                                           */
 
-$.getJSON('../Data/geojson/trainstations/EstacoesComboio.geojson', function(data) {  
+$.getJSON('../rotaverde.github.io/Data/geojson/trainstations/EstacoesComboio.geojson', function(data) {  
     for (feature of data.features) {
         [lng, lat] = feature.geometry.coordinates;
         
@@ -127,7 +127,7 @@ $.getJSON('../Data/geojson/trainstations/EstacoesComboio.geojson', function(data
     }
 });
 
-$.getJSON('../Data/geojson/Aeroportos.geojson', function(data) {
+$.getJSON('../rotaverde.github.io/Data/geojson/Aeroportos.geojson', function(data) {
         for (feature of data.features) {
             var coords = feature.geometry.coordinates[0];
             
@@ -149,7 +149,7 @@ $.getJSON('../Data/geojson/Aeroportos.geojson', function(data) {
         }
     });
 
-$.getJSON('../Data/geojson/Carris.json', function(data) {  
+$.getJSON('../rotaverde.github.io/Data/geojson/Carris.json', function(data) {  
     for (let stop of data) {
         if (stop.operational_status == "ACTIVE") {
             addMarkerWithTimedPopupBus(stop);
