@@ -32,10 +32,13 @@ function loadCoords() {
         
         const { latitude, longitude } = marker.pinLoc;
         const markerInstance = L.marker([latitude, longitude], {icon: icon})
-        .bindPopup("<b><center>" + marker.pinName + "</center></b>" +
-            "<hr><h5>Coords: [" + latitude + ", " + longitude + "]</h5></hr>" +
-            `<button onClick="changeCoordsDistance(1, ${latitude}, ${longitude})">Add as Starting Point.</button>` +
-            `<button onClick="changeCoordsDistance(2, ${latitude}, ${longitude})">Add as Destination.</button>`);
+        .bindPopup("<div class='custom-popup'>" +
+            "<b><center>" + marker.pinName + "</center></b>" +
+            "<hr><center><h5>Coords: [" + latitude + ", " + longitude + "]</h5></center></hr>" +
+            `<center><button onClick="changeCoordsDistance(1, ${latitude}, ${longitude})">Add as Starting Point.</button></center>` +
+            `<center><button onClick="changeCoordsDistance(2, ${latitude}, ${longitude})">Add as Destination.</button></center>` + "</div>");
+        
+            markerInstance.on('mouseover', () => markerInstance.openPopup());
             
             if (isMarkerInsideCircle(latitude, longitude, uCircle)) {
                 currentRangeCluster.addLayer(markerInstance);

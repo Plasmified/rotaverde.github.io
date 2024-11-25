@@ -148,7 +148,7 @@ map.on('click', function (e) {
 
     L.popup()
         .setLatLng(e.latlng)
-        .setContent(`<div style="">Latitude: ${latitude.toFixed(6)}<br>Longitude: ${longitude.toFixed(6)}</body>`
+        .setContent(`<div style="color : white;">Latitude: ${latitude.toFixed(6)}<br>Longitude: ${longitude.toFixed(6)}</body>`
                     + `<center><button onClick="addPin('${pinId}', '${latitude}', '${longitude}', '${pinName}')" style="margin-top: 22px; background-color: rgba(55, 95, 55, 0.667); border: none;">Add to map</button></center>`)
         .openOn(map);
 });

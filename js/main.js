@@ -92,21 +92,21 @@ function getMarkerPopupContent(marker, type) {
     const coordsText = `[${coords.lat.toFixed(6)}, ${coords.lng.toFixed(6)}]`;
 
     const popupContent = {
-        train: `
+        train: "<div class='custom-popup'>" + `
             <b><center>Estação ${marker.options.name}</center></b>
             <hr><center><h4>Coords: ${coordsText}</h4></center></hr>
-            <button onClick="changeCoordsDistance(1, ${coords.lat}, ${coords.lng})">Add as Starting Point.</button>
-            <button onClick="changeCoordsDistance(2, ${coords.lat}, ${coords.lng})">Add as Destination.</button>
-            <h3>Wait Time (Linha 1): ${lane1Text}</h3>
-            <h3>Wait Time (Linha 2): ${lane2Text}</h3>
-        `,
-        bus: `
+            <center><button onClick="changeCoordsDistance(1, ${coords.lat}, ${coords.lng})">Add as Starting Point.</button></center>
+            <center><button onClick="changeCoordsDistance(2, ${coords.lat}, ${coords.lng})">Add as Destination.</button></center>
+            <h3><center>Wait Time (Linha 1)</center><center>${lane1Text}</center></h3>
+            <h3><center>Wait Time (Linha 2)</center><center>${lane2Text}</center></h3>
+        ` + "</div>",
+        bus: "<div class='custom-popup'>" + `
             <b><center>Estação de Autocarro de ${marker.options.name}</center></b>
-            <hr><h5>Coords: ${coordsText}</h5></hr>
-            <button onClick="changeCoordsDistance(1, ${coords.lat}, ${coords.lng})">Add as Starting Point.</button>
-            <button onClick="changeCoordsDistance(2, ${coords.lat}, ${coords.lng})">Add as Destination.</button>
+            <hr><center><h4>Coords: ${coordsText}</h4></hr>
+            <center><button onClick="changeCoordsDistance(1, ${coords.lat}, ${coords.lng})">Add as Starting Point.</button></center>
+            <center><button onClick="changeCoordsDistance(2, ${coords.lat}, ${coords.lng})">Add as Destination.</button></center>
             <h3>Next bus in: ${lane1Text}</h3>
-        `
+        ` + "</div>"
     };
 
     return popupContent[type];
