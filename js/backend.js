@@ -1,5 +1,5 @@
 function loadCoords() {
-    fetch('https://api-ofnreznqeq-uc.a.run.app/api/', {
+    fetch('https://api-ofnreznqeq-uc.a.run.app/api/pin/', {
         method: "GET",
         headers: {
             'Content-Type': 'application/json',
