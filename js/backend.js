@@ -1,5 +1,5 @@
 function loadCoords() {
-    fetch('https://rotaverde.sytes.net:5000/api/', {
+    fetch('https://api-ofnreznqeq-uc.a.run.app/api/', {
         method: "GET",
         headers: {
             'Content-Type': 'application/json',
@@ -64,7 +64,7 @@ function loadCoords() {
 }
 
 const addPin = async (pinId, latitude, longitude, pinName) => {
-    const url = `https://rotaverde.sytes.net:5000/api/pin/${pinId}`;
+    const url = `https://api-ofnreznqeq-uc.a.run.app/api/pin/${pinId}`;
 
     var pinLoc =
         {
@@ -104,7 +104,7 @@ const addPin = async (pinId, latitude, longitude, pinName) => {
 };
 
 const getTransportTime = async(name, marker, type) => {
-    const url = `https://rotaverde.sytes.net:5000/api/transports/${name}`; 
+    const url = `https://api-ofnreznqeq-uc.a.run.app/api/transports/${name}`; 
 
     try {
         const response = await fetch(url, {
